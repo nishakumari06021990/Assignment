@@ -78,17 +78,17 @@ The flow diagram below illustrates the sequence of actions performed by the appl
 # Note
 One has to make changes in application.properties file to run the application.
 
-## Application Name
+### Application Name
 - spring.application.name=User
 
-## Database Settings
+### Database Settings
 - spring.datasource.url=jdbc:sqlite:./mydatabase.db
 - spring.datasource.driverClassName=org.sqlite.JDBC
 - spring.jpa.database-platform=org.hibernate.community.dialect.SQLiteDialect
 - spring.datasource.driver-class-name=org.sqlite.JDBC
 - spring.jpa.hibernate.ddl-auto=update
 
-## Mail Settings
+### Mail Settings
 - spring.mail.host=<host>
 - spring.mail.port=587
 - spring.mail.username=<username>
@@ -101,10 +101,10 @@ One has to make changes in application.properties file to run the application.
 - mail.to=nisha**@gmail.com
 - mail.from=nisha**@gmail.com
 
-## Authentication Settings
+### Authentication Settings
 - spring.security.user.name=testUser
 - spring.security.user.password=Christmas@2024
 
-## Swagger Settings
+### Swagger Settings
 - springdoc.api-docs.path=/v3/api-docs
 - springdoc.swagger-ui.path=/swagger-ui.htmlp
