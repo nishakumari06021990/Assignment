@@ -4,6 +4,7 @@ import com.example.User.dto.UserDto;
 import com.example.User.entity.Name;
 import com.example.User.entity.RandomUserResponse;
 import com.example.User.entity.User;
+import com.example.User.exceptions.CustomException;
 import com.example.User.repository.UserRepository;
 import com.example.User.utility.UserMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -264,7 +265,7 @@ public class UserService {
         if (userOptional.isPresent()) {
             return UserMapper.toUserDto(userOptional.get());
         } else {
-            throw new RuntimeException("User not found with id: " + userId);
+            throw new CustomException("User not found with id: " + userId);
         }
     }
 }

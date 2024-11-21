@@ -47,6 +47,9 @@ public class UserController {
     public ResponseEntity<Page<UserDto>> getPaginatedUsers(
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
+        if (page <= 0 || size <= 0) {
+            return ResponseEntity.badRequest().build();
+        }
         log.info("Inside Controller -> getPaginatedUsers");
         Page<UserDto> users = userService.getPaginatedUsers(page, size);
         return ResponseEntity.ok(users);
