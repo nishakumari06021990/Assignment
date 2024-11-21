@@ -1,0 +1,57 @@
+{
+        "userId": 21,
+        "gender": "female",
+        "id": {
+            "name": "INSEE",
+            "value": "2501026998070 72"
+        },
+        "name": {
+            "title": "Ms",
+            "first": "Emy",
+            "last": "Fournier"
+        },
+        "location": {
+            "street": {
+                "number": 6922,
+                "name": "Rue de la Fontaine"
+            },
+            "city": "Champigny-sur-Marne",
+            "state": "Guadeloupe",
+            "country": "France",
+            "postcode": "76630",
+            "coordinates": {
+                "latitude": "-14.6677",
+                "longitude": "179.3382"
+            },
+            "timezone": {
+                "offset": "-10:00",
+                "description": "Hawaii"
+            }
+        },
+        "email": "emy.fournier@example.com",
+        "login": {
+            "uuid": "55b1ba35-b12a-404f-b6fa-b313ab7eec4b",
+            "username": "purplepeacock270",
+            "password": "xxxxxxx",
+            "salt": "ekOas9pA",
+            "md5": "8703fbd790590e92a47b538dccaf1b4b",
+            "sha1": "c2c07b056f8ca497144f1f529ceabbf20cc3c279",
+            "sha256": "69d6347401032abef0ad540acfd30987a0e4d4f6fc549e15daa7b135b85a468c"
+        },
+        "dob": {
+            "date": "1950-11-23T16:25:35.781Z",
+            "age": 73
+        },
+        "registered": {
+            "date": "2006-12-27T01:09:37.396Z",
+            "age": 17
+        },
+        "phone": "04-48-97-37-73",
+        "cell": "06-22-33-93-47",
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/65.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+        },
+        "nat": "FR"
+    }
