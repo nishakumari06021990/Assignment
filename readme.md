@@ -70,6 +70,10 @@ This README provides an overview of the system components, describes the flow of
    The application uses logging to monitor its activity, detect issues, and facilitate debugging.
    Logs are generated at key points in the application flow, such as when fetching data, updating users, sending emails, and during error handling.
 
+# Global Exception Handling
+   Global exception handling is implemented to handle exceptions that occur during the application's execution.
+   The application catches exceptions and logs them to provide information about the error and its context. Class name is CustomExceptionHandler. 
+
 # Flow Diagram
 The flow diagram below illustrates the sequence of actions performed by the application when the scheduler runs.
 
